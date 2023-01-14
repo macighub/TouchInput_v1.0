@@ -1,6 +1,4 @@
-﻿Imports System.Drawing
-
-Public Class KeyPad
+﻿Public Class KeyPad
 
     Private Declare Function GetCaretPos Lib "user32" (ByRef lpPoint As Point) As Integer
     Public Declare Auto Function SetCaretPos Lib "User32" (ByVal x As Integer, ByVal y As Integer) As Boolean
